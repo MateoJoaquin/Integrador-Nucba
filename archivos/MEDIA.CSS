@@ -1,0 +1,334 @@
+@media(max-width: 576px){ 
+    /*=======================header======*/
+  
+    .nav  {  display: flex;
+
+        width: 100%;
+      
+      
+        position: absolute;
+        top: 80px;
+        left: 0;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        
+    
+
+    }
+   
+    
+    .nav li  {
+        display: none;
+        
+       
+       
+    }
+    
+    
+    .menu-label {
+        display: block;
+    }
+    
+    #menu-toggle:checked ~ .nav li {
+        display: flex;
+        
+
+    }
+    #menu-toggle:checked ~ .nav  {
+        display: flex;
+      
+        background: rgba(0, 0, 0, 0.72);
+        border-radius: 16px;
+        box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1);
+        backdrop-filter: blur(5.7px);
+       -webkit-backdrop-filter: blur(5.7px);
+        border: 1px solid rgba(0, 0, 0, 0.3);
+        
+
+    }
+
+     /*================== .D2   ========================================*/
+     
+    .hero1 h1 {
+        font-size: 90px;
+    }
+     .d2 img {
+       
+       
+        position: absolute;
+    
+        
+       
+       
+       
+    } 
+
+    .hero1  img {
+        position: absolute;
+        top: 100px;
+        width: 480px;
+       
+
+       
+        
+    }
+
+      
+    .Caracteristicas  {
+        display: flex;
+        flex-direction:column;
+        justify-content:flex-start;
+        align-items: flex-start ;
+        color: #7c787a;
+        font-size: 20px;
+       
+    }
+    .hero2cards {
+       
+        border-radius: 1rem; 
+        display: flex;
+        gap: 1.4rem ;
+        background: rgba(255, 255, 255, 0.31);
+        background: rgba(255, 255, 255, 0.06);
+        border-radius: 16px;
+        box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1);
+        backdrop-filter: blur(20px);
+       -webkit-backdrop-filter: blur(20px);
+       display: flex;
+       flex-direction: column;
+       align-items: center;
+       justify-content: center;
+      
+    }
+    
+      .imghero2 IMG{
+        width: 400PX;
+
+      }
+
+
+      
+    .especificaciones {
+    
+        display: flex;
+        flex-direction: column;
+        justify-content: flex-start;
+        align-items: center;
+        gap: 60px;
+      
+     }
+     .MOTOR {
+        display: flex;
+        
+      
+        width: 100%;
+
+     }
+     .motor2 {
+        justify-content: space-between;
+     }
+
+
+
+    /*=======================REGISTRO=========================================*/
+    .container{
+        min-width: 280px;
+    }
+
+    .user-input-box{
+        margin-bottom: 12px;
+        width: 100%;
+    }
+
+    .user-input-box:nth-child(2n){
+        justify-content: space-between;
+    }
+
+    .gender-category{
+        display: flex;
+        justify-content: space-between;
+        width: 100%;
+    }
+
+    .main-user-info{
+        max-height: 380px;
+        overflow: auto;
+    }
+
+    .main-user-info::-webkit-scrollbar{
+        width: 0;
+    }
+    .contactmaster {
+        display: flex;
+        flex-direction: column;
+    }
+ /*=======================footer==================*/
+
+ .socialsmaster{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+ }
+    
+
+    
+}
+
+ /*============================================================================*/
+@media (max-width: 992px) {
+    /*=======================header==================*/
+
+    header {
+       
+        width: 100%;
+        justify-content: space-between;
+        
+    }
+
+
+    .nav  {  display: flex;
+
+        width: 100%;
+      
+        position: absolute;
+        top: 80px;
+        left: 0;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        
+    
+
+    }
+   
+
+
+
+
+    
+    .nav li  {
+        display: none;
+        
+       
+       
+    }
+    
+    
+    .menu-label {
+        display: block;
+        order: 1;
+    }
+    
+    #menu-toggle:checked ~ .nav li {
+        display: flex;
+        
+
+    }
+    #menu-toggle:checked ~ .nav  {
+        display: flex;
+      
+        background: rgba(0, 0, 0, 0.72);
+        border-radius: 16px;
+        box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1);
+        backdrop-filter: blur(5.7px);
+       -webkit-backdrop-filter: blur(5.7px);
+        border: 1px solid rgba(0, 0, 0, 0.3);
+        
+
+    }  
+   
+    /*=======================header=============*/
+    .Caracteristicas {
+        display: flex;
+        flex-direction: column;
+        align-items: flex-start;
+        justify-content: center;
+    }
+    .hero2cards {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+      
+
+    }
+    .hero2cards img  {
+        max-width: 100%;
+       
+}
+     
+     
+    .d2 img {
+        max-width: 550px;
+       
+        position: absolute;
+       
+       
+       
+    } 
+
+    .hero1  img {
+        position: absolute;
+        top: 160px;
+        left:-5% ;
+        
+    }
+
+   
+    
+    
+
+
+    .especificaciones {
+      flex-direction: column;
+      align-items: flex-start;
+    }
+    .MOTOR {
+      
+      width:450PX;
+       
+    }
+
+
+    .motor2 {
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+       
+    }
+
+
+
+    .contact-wrapper {
+        display: flex;
+        flex-direction: column;
+    }
+    
+   
+
+  
+
+    
+
+   
+
+
+
+    .contactmaster {
+        display: flex;
+        flex-direction: column;
+    }
+
+
+
+
+
+
+  
+}
+
+
+
+

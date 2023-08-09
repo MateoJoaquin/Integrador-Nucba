@@ -1,0 +1,626 @@
+*{
+    list-style: none;
+    text-decoration: none;
+    font-family:sans-serif;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    border: 2px solid transparent;
+    
+  
+   
+   
+    
+    color: white;  
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+   
+}
+:root {
+    --gradient: linear-gradient(40deg, #bc5f6d,#582a2f,#de9aa4,#9D3A44,#eb8da7);
+  
+  }
+  
+@keyframes bg-animation {
+    0% {background-position: left}
+    50% {background-position: right}
+    100% {background-position: left}
+}
+
+
+
+body {
+    background-image: var(--gradient);
+    animation: bg-animation 8s infinite;
+    background-size: 300%;
+    background-image: var(--gradient);
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    
+    
+    
+}
+body:hover {
+    background-position: right;
+  }
+  
+
+
+/*==============HEADER============================*/
+header{
+    position: relative;
+    display: flex;
+    flex-direction: row;
+    justify-content:space-between;
+    align-items: center;
+    padding: 0 30px ;
+    margin-top: 30px;
+    height: 75px;
+    width: 100%;
+    z-index: 2;  
+    position: fixed;   
+    
+    
+          
+      
+}
+.logo575 {
+   display: none;
+
+
+}
+.menu-label {
+
+    display: none;
+    font-size: 26px;
+  }
+#menu-toggle {
+    display: none;
+  }
+
+
+
+.nav  { 
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    gap: 4rem;
+}
+.nav a  { 
+    color: white;
+    font-size: 24px;
+}
+.logo img {
+    width: 120px;
+
+
+}
+
+
+
+/*==============HEADER============================*/
+
+
+.main{ 
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+    gap: 50px;
+
+}
+
+
+
+.hero1 {
+  
+    max-width: 1200px;
+    
+    padding: 70px 0 150px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+    
+
+}
+
+.d2  IMG{
+
+    width: 800PX;
+    left: -140px;
+    top: 125px;
+  
+    position: absolute;
+    z-index: -1;
+    
+    
+}
+
+.hero1 h1 {
+    font-size: 100Px;
+    background-image:url(./prueba4.jpg);
+    background-clip:text ;
+    background-size: cover;
+    -webkit-background-clip: text;
+    color: transparent;
+    font-weight: bold;
+
+ 
+   
+
+  
+    
+}
+.hero1 h2 {
+    font-size: 30px;
+    
+   
+}
+.Caracteristicas  {
+    display: flex;
+    justify-content: space-between;
+    align-items: center ;
+    gap: 40px;
+    color: #7c787a;
+    padding-top: 150px;
+   
+   
+}
+.Caracteristicas h2 {
+   
+    color: #c0b9b8;
+}
+
+.texto {
+
+    color: #c0b9b8;
+    max-width: 1000px;
+    padding: 40px;
+    font-size: 18px;
+
+
+}
+/*==============HERO2============================*/
+.hero2  {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 40px;
+    
+} 
+
+
+
+.imghero2  img{
+  max-width: 700px;
+  border-radius: 0.8rem;
+}
+.hero2cards {
+    padding: 0.5rem;
+    border-radius: 1rem; 
+    display: flex;
+    gap: 1.4rem ;
+    background: rgba(255, 255, 255, 0.31);
+    background: rgba(255, 255, 255, 0.06);
+    border-radius: 16px;
+    box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1);
+    backdrop-filter: blur(20px);
+   -webkit-backdrop-filter: blur(20px);
+  
+}
+
+.hero2texto {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    padding: 0.5 rem;
+    gap: 30px;
+}
+.hero2texto {
+  font-size: 19px;
+}
+
+
+
+
+
+
+
+/*==============ESPECIFICACIONES============================*/
+
+ .especificaciones {
+    
+    display: flex;
+    gap: 60px;
+    justify-content: space-between;
+    align-items: center;
+  
+ }
+ .especificaciones h1 {
+   color: black;
+ }
+
+ .MOTOR {
+    display: flex;
+    flex-direction: column;
+    gap: 60PX;
+
+ }
+ .motor2  p{ 
+    font-size: 17px;
+
+ }
+ .motor2  h2{ 
+    font-size: 21px;
+    color: #6c141c;
+
+
+ }
+ 
+  .motor2{
+    display: flex;
+    gap: 30px;
+    justify-content: space-between;
+    align-items: center;
+  }
+
+
+/*==============login============================*/
+.login { 
+    width: 420px;
+
+   padding: 60px;
+   border-radius: 10px;
+   margin: 120px;
+}
+.login h1{
+    font-size: 36px;
+    text-align: center;
+}
+
+.imput-box {
+    position: relative;
+    width: 100%;
+    height: 50px;
+    margin: 30px 0;
+
+
+}
+.imput-box  input {
+    width: 100%;
+    height: 100%;
+    background:  transparent;
+    border: none ;
+    outline: none;
+    border: 2px solid #9D3A44;
+    border-radius: 40px;
+    padding: 20px 45px 20px 20px;
+    color: black;
+}
+.imput-box ::placeholder { 
+    color: black;
+}
+.imput-box  i {
+   position: absolute;
+   right: 20px;
+   top: 50% ;
+   transform: translateY(-50%);
+   font-size: 20px;
+   font-size: 20px;
+}
+
+.Contraseñaolvidada { 
+    display: flex;
+    justify-content:space-between ;
+    font-size: 14.5px;
+    margin: -15px 0 15px;
+
+}
+.Contraseñaolvidada a {
+    color: white;
+    text-decoration: none;
+
+
+
+}
+
+
+.checkbox label input{
+    accent-color: white;
+    margin-right: 3px;
+ }
+
+ .btn {
+    width: 100%;
+    height: 45%;
+    background: white;
+    border: none;
+    outline: none;
+    border-radius: 40px;
+    color: red;
+    box-shadow: 0 0 10px ;
+    cursor: pointer;
+    font-size: 20px;
+}
+.registro { 
+    font-size: 14,5px;
+    text-align: center;
+    margin-top: 20px;
+    
+}
+.registro p a {
+   color: white;
+   text-decoration: none;
+   font-weight: 400;
+    
+}
+
+
+.registro p a :hover {
+    text-decoration: underline;
+
+}
+/*==============REGISTRO============================*/
+.registro2 {
+
+    height: 100vh;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+}
+.container{
+    width: 100%;
+    max-width: 650px;
+    background: rgba(0, 0, 0, 0.5);
+    padding: 28px;
+    margin: 0 28px;
+    border-radius: 10px;
+    box-shadow: inset -2px 2px 2px white;
+   
+}
+
+.form-title{
+    font-size: 26px;
+    font-weight: 600;
+    text-align: center;
+    padding-bottom: 6px;
+    color: white;
+    text-shadow: 2px 2px 2px black;
+    border-bottom: solid 1px white;
+}
+
+.main-user-info{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    padding: 20px 0;
+  
+}
+
+.user-input-box:nth-child(2n){
+    justify-content: end;
+}
+
+.user-input-box{
+    display: flex;
+    flex-wrap: wrap;
+    width: 50%;
+    padding-bottom: 15px;
+}
+
+.user-input-box label{
+    width: 95%;
+    color: white;
+    font-size: 20px;
+    font-weight: 400;
+    margin: 5px 0;
+}
+
+.user-input-box input{
+    height: 40px;
+    width: 95%;
+    border-radius: 7px;
+    outline: none;
+    border: 1px solid grey;
+    padding: 0 10px;
+    color: black;
+}
+
+.gender-title{
+    color:white;
+    font-size: 24px;
+    font-weight: 600;
+    border-bottom: 1px solid white;
+}
+
+.gender-category{
+    margin: 15px 0;
+    color: white;
+}
+
+.gender-category label{
+    padding: 0 20px 0 5px;
+}
+
+.gender-category label,
+.gender-category input,
+.form-submit-btn input{
+    cursor: pointer;
+}
+
+.form-submit-btn{
+    margin-top: 40px;
+}
+
+.form-submit-btn input{
+    display: block;
+    width: 100%;
+    margin-top: 10px;
+    font-size: 20px;
+    padding: 10px;
+    border:none;
+    border-radius: 3px;
+    color: rgb(209, 209, 209);
+    background: black;
+    transition: 2s;
+}
+
+.form-submit-btn input:hover{
+    background:#eb8da7;
+    color: rgb(255, 255, 255);
+}
+/*==============Contacto======================*/
+.contactmaster {
+    display: flex;
+    background: #582a2f;
+    border: 8px solid black;
+}
+
+
+
+.content  {
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+
+   
+}
+
+.content {
+    max-width: 1170px;
+    margin-left: auto;
+    margin-right: auto;
+    padding: 1.5em;
+}
+
+ul {
+    list-style: none;
+    padding: 0;
+}
+
+.content img {
+    text-align: center;
+    max-width: 225px;
+
+}
+.contact-wrapper {
+    box-shadow: 0 0 100px 0 #bc5f6d;
+}
+
+.contact-wrapper > * {
+    padding: 1em;
+}
+
+
+
+.contact-form form {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+}
+
+.contact-form form label {
+    display: block;
+}
+
+.contact-form form p {
+    margin: 0;
+    padding: 1em;
+}
+
+.contact-form form .block {
+    grid-column: 1 / 3;
+}
+
+.contact-form form button,
+.contact-form form input,
+.contact-form form textarea {
+    width: 100%;
+    padding: .7em;
+    border: none;
+    background: none;
+    outline: 0;
+    color: #fff;
+    border-bottom: 1px solid #d63031;
+}
+
+.contact-form form button {
+    background: #6c141c;
+    border: 0;
+    text-transform: uppercase;
+    padding: 1em;
+}
+
+.contact-form form button:hover,
+.contact-form form button:focus {
+    background: #6c141c;
+    color: #fff;
+    transition: background-color 1s ease-out;
+    outline: 0;
+}
+
+/* CONTACT INFO */
+.contact-info {
+    background: #000;
+}
+
+.contact-info h4, .contact-info ul, .contact-info p {
+    text-align: center;
+    margin: 0 0 1rem 0;
+}
+
+
+/* ===========FOOTER====================================== */
+
+footer {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+footer img {
+    max-width: 400px;
+}
+
+.socialsmaster {
+    display: flex;
+    gap: 50px;
+    justify-content: center;
+    align-items: center;
+}
+
+
+.socials {
+    display: flex;
+    flex-direction: row;
+    gap: 50px;
+    margin: 20px 0px;
+}
+.socials a { 
+   font-size: 20px;
+   border: solid 3px black;
+   border-radius: 30px;
+   padding: 20px;
+  
+}
+
+ .legales ul {
+    display: flex;
+    justify-content: center;
+    gap: 50px;
+    margin: 30px 0px;
+ }
+ .legales ul :hover {
+   color: #7c787a;
+   transition: 1,8s;
+ }
+ 
+ .socials a  :hover{
+    color: #bc5f6d; 
+  
+   
+ }
