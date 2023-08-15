@@ -48,32 +48,28 @@
 
     }
 
-     /*================== .D2   ========================================*/
-     
-    .hero1 h1 {
-        font-size: 90px;
-    }
-     .d2 img {
-       
-       
-        position: absolute;
     
+     /*================== .D2   ========================================*/
+     .hero1 h1 {
+        font-size: 80px; 
+    }
         
-       
-       
-       
-    } 
+     .hero1 h2 { 
+      
 
-    .hero1  img {
+     }
+     .d2  IMG{
+
+        width: 100%;
+        left: -140px;
+        top: 125px;
+      
         position: absolute;
-        top: 100px;
-        width: 480px;
-       
-
-       
+        z-index: -1;
+        
         
     }
-
+    
       
     .Caracteristicas  {
         display: flex;
@@ -82,7 +78,17 @@
         align-items: flex-start ;
         color: #7c787a;
         font-size: 20px;
+        gap: 30px; 
+        padding-top: 50px;
        
+    }
+
+
+    .hero2 {
+        display: flex; 
+        justify-content: center;
+        align-items: center;
+
     }
     .hero2cards {
        
@@ -105,64 +111,36 @@
       .imghero2 IMG{
         width: 400PX;
 
-      }
+    }
+     /*=======================iniciar sesion===============*/
 
-
-      
-    .especificaciones {
+     .login { 
+        width: 320px;
     
-        display: flex;
+       padding: 10px;
+       border-radius: 10px;
+       margin: 20px;
+     
+    }
+    /*==============Contacto======================*/
+    .content img  {
+        max-width: 160px;
+    }
+    .content {
+        max-width: 320px;
         flex-direction: column;
-        justify-content: flex-start;
-        align-items: center;
-        gap: 60px;
-      
-     }
-     .MOTOR {
-        display: flex;
-        
-      
-        width: 100%;
-
-     }
-     .motor2 {
-        justify-content: space-between;
-     }
-
-
-
-    /*=======================REGISTRO=========================================*/
-    .container{
-        min-width: 280px;
-    }
-
-    .user-input-box{
-        margin-bottom: 12px;
-        width: 100%;
-    }
-
-    .user-input-box:nth-child(2n){
-        justify-content: space-between;
-    }
-
-    .gender-category{
-        display: flex;
-        justify-content: space-between;
-        width: 100%;
-    }
-
-    .main-user-info{
-        max-height: 380px;
-        overflow: auto;
-    }
-
-    .main-user-info::-webkit-scrollbar{
-        width: 0;
     }
     .contactmaster {
         display: flex;
-        flex-direction: column;
+        background: #582a2f;
+        max-width: 250px;
     }
+    .mapa1 iframe { 
+      max-width: 100%;
+    }
+
+
+
  /*=======================footer==================*/
 
  .socialsmaster{
@@ -170,6 +148,9 @@
     flex-direction: column;
     justify-content: center;
     align-items: center;
+ }
+ .footerimg  img{
+    max-width: 300px;
  }
     
 
@@ -275,47 +256,10 @@
         left:-5% ;
         
     }
-
-   
-    
-    
-
-
-    .especificaciones {
-      flex-direction: column;
-      align-items: flex-start;
-    }
-    .MOTOR {
-      
-      width:450PX;
-       
-    }
-
-
-    .motor2 {
-        display: flex;
-        justify-content: space-between;
-        align-items: center;
-       
-    }
-
-
-
     .contact-wrapper {
         display: flex;
         flex-direction: column;
     }
-    
-   
-
-  
-
-    
-
-   
-
-
-
     .contactmaster {
         display: flex;
         flex-direction: column;
