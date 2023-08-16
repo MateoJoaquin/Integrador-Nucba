@@ -233,6 +233,7 @@ header{
     display: flex;
     justify-content: center;
     align-items: center;
+    
 } 
 .login { 
     
@@ -317,7 +318,7 @@ header{
     margin-top: 20px;
     
 }
-.registro p a {
+.registro  a {
    color: white;
    text-decoration: none;
    font-weight: 400;
@@ -325,9 +326,9 @@ header{
 }
 
 
-.registro p a :hover {
+.registro a :hover {
     text-decoration: underline;
-
+    
 }
 
 /*==============Contacto======================*/
